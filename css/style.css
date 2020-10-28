@@ -1,0 +1,172 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+/* --------- HEADER ---------- */
+
+header{
+    text-align: center;
+}
+
+header p{
+    color: rgb(63, 23, 23);
+}
+
+h1{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    width: 35%; /* permet de mettre une bordure au dessus et en dessous du titre h1 */
+}
+
+/* --------- NAV ---------- */
+
+nav{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5em;
+}
+
+nav a{
+    /* flex-direction: row; */
+    color: black;
+    margin: 0 auto;
+    padding-right: 0.5em;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: brown;
+}
+
+
+/* --------- SECTION ---------- */
+
+.assiette img{
+    float: left;
+    width: 50%;
+}
+
+.exemple{
+    text-align: right;
+    padding-right: 5em;
+    padding-top: 13em;
+}
+
+.trait{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    width: 45%;
+}
+
+.salle{
+    float: left; /* règle le texte à gauche */
+    width: 40%;
+    margin-left: 3em;
+    padding-top: 4em;
+}
+
+.salle h2{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    width: 100%;
+}
+
+.table img{
+    float: right; /* règle l'image à droite */
+    width: 50%;
+}
+
+/* les deux div précédents sont côtes à côtes */
+
+.menu img{
+    float: left; /* règle l'image à gauche */
+    width: 50%;
+}
+
+.service{
+    float: right; /* règle le texte à droite */
+    width: 40%;
+    margin-right: 3em;
+    padding-top: 4em;
+}
+
+.service h2{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    width: 100%;
+}
+
+.dressage{
+    float: left;
+    width: 40%;
+    margin-left: 3em;
+    padding-top: 4em;
+}
+
+.dressage h2{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    width: 100%;
+}
+
+.fraise img{
+    float: right;
+    width: 50%;
+}
+
+.poisson img{
+    float: left;
+    width: 50%;
+}
+
+.gout{
+    float: right;
+    width: 40%;
+    margin-right: 3em;
+    padding-top: 4em;
+}
+
+.gout h2{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    width: 100%;
+}
+
+.degrade{
+    background: -webkit-linear-gradient( left, white, black); /* Pour mettre deux couleurs sur UN caractère */
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.note{
+    background-color: black;
+    color : white ;
+    width: 37%;
+    transition: 0.5s;
+}
+
+.note:hover{
+    color: goldenrod;
+}
+
+.vide{
+    color: rgb(56, 56, 56);
+}
+
+.clear{
+    clear: both;
+}
+
+/* --------- SECTION ---------- */
+
+footer{
+    text-align: center;
+    padding-top: 5em;
+}
